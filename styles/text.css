@@ -1,0 +1,242 @@
+.hello{
+  border-color: white;
+  margin-top: 100px;
+  padding: 0;
+  color: #7fffd4;
+  size: 220px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.name{
+color: aliceblue;
+font-size: 70px;
+font-weight: bold;
+}
+
+.frontend{
+ color:rgb(204, 214, 246);
+ font-size: 70px;
+ font-weight: bold;
+ margin-bottom: 100px;
+}
+
+.presentation{
+  color:rgb(204, 214, 246);
+  font-size: 20px;
+  margin-top: 00px;
+  margin-bottom: 80px;
+}
+
+.about-title,
+.language-title,
+.work-title,
+.contact-title{
+  display: flex;
+  flex-direction: row;
+  color: rgb(204, 214, 246); 
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 150px;
+}
+
+.contact-title{
+  padding-left: 400px;
+}
+
+.about-title:hover{
+  color: yellow;
+}
+.language-title:hover{
+  color: rgb(242, 139, 104);
+}
+
+.work-title:hover{
+  color: rgb(163, 115, 227);
+}
+
+.contact-title:hover{
+  color: rgb(243, 74, 172);
+}
+
+.separation-bar{
+  color: rgb(74, 81, 101);
+  display: block;
+  position: relative;
+  top: -12px;
+  width: 300px;
+  height: 1px;
+  margin-left: 20px;
+}
+
+.separation-bar-left{
+  color: rgb(74, 81, 101);
+  display: block;
+  position: relative;
+  top: -12px;
+  width: 260px;
+  height: 1px;
+}
+
+.about-page,
+.work-page{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 150px;
+}
+.about-text{
+  margin-top: 30px;
+  width: 400px;
+  display: block;
+  color: rgb(204, 214, 246);
+  font-size: 20px;
+  align-items: center;
+}
+
+.about-text2{
+  margin-top: 30px;
+  width: 405px;
+  display: block;
+  color: rgb(204, 214, 246);
+  font-size: 20px;
+  align-items: center;
+}
+
+.about-text3{
+  margin-top: 30px;
+  width: 400px;
+  display: block;
+  color: rgb(204, 214, 246);
+  font-size: 20px;
+  align-items: center;
+}
+
+.profile-picture{
+  display: inline-block;
+  width: 400px;
+  height: 420px;
+  object-fit: cover;
+  background-color: lightblue;
+  margin-left: 200px;
+}
+
+.language-picture{
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 150px;
+}
+
+.work-image{
+  padding-top: 70px;
+  width: 500px;
+  height: 300px;
+}
+
+.cover:hover{
+  background: none;
+  transition: 0.5s;
+  background-color: aquamarine;
+}
+
+.cover{
+  background-color: aquamarine;
+  background-color: transparent;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  margin-top: -305px;
+  opacity: 0.5;
+}
+
+.work-page-text{
+  padding-top: 40px;
+ margin-left: 90px;
+}
+
+.work-page-text1{
+  margin-top: 30px;
+  width: 400px;
+  display: block;
+  color: rgb(204, 214, 246);
+  font-size: 20px;
+  align-items: center;
+  color: aquamarine;
+}
+
+.work-page-text2{
+  margin-top: 30px;
+  width: 405px;
+  display: block;
+  color: rgb(204, 214, 246);
+  font-size: 20px;
+  align-items: center;
+  color: #f0f8ff;
+}
+
+.work-page-text3{
+  margin-top: 30px;
+  width: 400px;
+  display: block;
+  color: rgb(204, 214, 246);
+  font-size: 20px;
+  align-items: center;
+}
+
+.github-image{
+  margin-top: 40px;
+  height: 20px;
+  width: 80px;
+  filter: invert(33%) sepia(8%) saturate(0%) hue-rotate(166deg) brightness(89%) contrast(84%);
+}
+
+.github-image:hover{
+  filter: invert(99%) sepia(28%) saturate(4572%) hue-rotate(158deg) brightness(98%) contrast(116%);
+}
+
+.email-icon{
+  width: 200px;
+  height: 200px;
+  filter: invert(33%) sepia(8%) saturate(0%) hue-rotate(166deg) brightness(89%) contrast(84%);
+  padding-left: 380px;
+  padding-top: 0px;
+}
+
+.email-icon:hover{
+  filter: invert(99%) sepia(28%) saturate(4572%) hue-rotate(158deg) brightness(98%) contrast(116%);
+}
+
+.email{
+  color: aquamarine;
+  padding-left: 405px;
+}
+
+.contact-h2{
+  margin-top: 50px;
+  color: rgb(204, 214, 246);
+  font-size: 30px;
+  align-items: center;
+  padding-left: 400px;
+}
+.contact-text{
+  margin-top: 30px;
+  color:  rgb(74, 81, 101);
+  font-size: 20px;
+  align-items: center;
+  padding-left: 155px;
+  margin-left: 250px;
+  padding-top: 50px;
+}
+
+.creator{
+padding-top: 40px;
+margin-left: 380px;
+color:  rgb(74, 81, 101);
+}
+
+.creation-date{
+margin-left: 450px;
+color:  rgb(74, 81, 101);
+}

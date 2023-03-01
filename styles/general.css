@@ -1,0 +1,27 @@
+
+p {
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+body {
+  /* this style will be inherited */
+  font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  height: 3550px;
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color:rgb(10, 25, 47);
+}
+
+@media (min-width: 1200.1px) {
+  body {
+    margin-left: 168px;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
