@@ -1,0 +1,66 @@
+
+p {
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+body {
+  /* this style will be inherited */
+  font-family:"Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  height: 3550px;
+  background-color:rgb(10, 25, 47);
+}
+
+@media (min-width: 1200.1px) {
+  body {
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.portfolio {
+  margin-left: 200px;
+}
+
+/* LOADER */
+.loader {
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: linear-gradient(rgb(20, 52, 101),aquamarine);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  gap: 3px;
+  font-size: 2rem;
+  animation: load 5s forwards;
+  & .bar1, .bar2, .bar3 {
+    height: 50px;
+    width: 20px;
+    background-color: black;
+    animation: grow 1.5s infinite;
+  }
+  & .bar2 {
+    animation-delay: 0.3s;
+  }
+  & .bar3 {
+    animation-delay: 0.6s;
+  }
+}
+
+@keyframes grow {
+  0% {transform: scaleY(0); opacity: 0;}
+  50% {transform: scaleY(1); opacity: 1;}
+  100% {transform: scaleY(0); opacity: 0;}
+}
+
+@keyframes load {
+  0% {transform: scale(1); opacity: 1;}
+  50% {transform: scale(1); opacity: 1;}
+  100% {transform: scale(1); opacity: 0;}
+}
+
