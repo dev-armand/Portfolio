@@ -25,7 +25,7 @@ li{list-style:none}
 /* ---- base ---- */
 
 html,body{ 
-	width: 100px;
+	width: 100%;
 	height:100%;
 }
 
@@ -38,13 +38,13 @@ body{
 }
 
 canvas{
-  display:block;
+  display:flex;
 }
 
 /* ---- particles.js container ---- */
 
 #particles-js{
-  width: 1500px;
+  width: 118%;
   height: 100%;
   background-color: #0a192f;
   background-image: url('');

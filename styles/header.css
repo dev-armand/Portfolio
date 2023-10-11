@@ -95,10 +95,15 @@
   
 }
 .right-section {
-  width:500px;
   margin-right: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
+  gap: 15px;
 }
+
+.git2 {
+  margin-bottom: 40px;
+}
+
