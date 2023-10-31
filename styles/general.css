@@ -88,3 +88,17 @@ html{
   border-radius: 1rem;
   align-items: center;
 }
+
+.about-page {
+  display: flex;
+  align-items: center;
+  background-color: rgb(127, 255, 212, 0.4);
+  margin: 3rem 10rem 1rem 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  gap: 4rem;
+}
+
+footer {
+  margin-bottom: 4rem;
+}
