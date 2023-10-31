@@ -65,9 +65,25 @@ html{
 .profile-picture {
  object-fit: cover;
  object-position: 50% 100%;
+ border-radius: 1rem;
 }
 
 .hello {
   margin-top: 500px;
   margin-bottom: 500px;
+}
+
+.techno_img {
+  height: 110px;
+  opacity: 1;
+}
+
+.techno_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: rgb(127, 255, 212, 0.4);
+  margin: 3rem 10rem 1rem 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
 }
