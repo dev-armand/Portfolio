@@ -188,8 +188,7 @@ font-weight: bold;
 
 .github-image{
   margin-top: 40px;
-  height: 20px;
-  width: 80px;
+  height: 40px;
   filter: invert(33%) sepia(8%) saturate(0%) hue-rotate(166deg) brightness(89%) contrast(84%);
 }
 
@@ -240,4 +239,15 @@ color:  rgb(74, 81, 101);
 .creation-date{
 margin-left: 450px;
 color:  rgb(74, 81, 101);
+}
+
+
+.work-page {
+  background-color:rgba(21, 51, 94, 0.4);
+  border-radius: 1rem;
+  margin: 3rem 10rem 1rem 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

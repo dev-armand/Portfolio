@@ -88,6 +88,7 @@
     background-color 0.15s;
   margin-left: 15px;
   font-size: var(--fz-xs);
+  margin-right: 40px;
 }
 
 .resume-button:hover{
@@ -95,7 +96,6 @@
   
 }
 .right-section {
-  margin-right: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -105,5 +105,25 @@
 
 .git2 {
   margin-bottom: 40px;
+  margin-top: 40px;
+  height: 20px;
+  width:80px;
+  filter: invert(33%) sepia(8%) saturate(0%) hue-rotate(166deg) brightness(89%) contrast(84%);
 }
 
+.git2:hover {
+  filter: invert(99%) sepia(28%) saturate(4572%) hue-rotate(158deg) brightness(98%) contrast(116%);
+}
+
+.header__name {
+  color: #ccd6f6;
+  font-size: 32px;
+  animation: grow 5s infinite;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 3rem;
+}
